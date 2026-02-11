@@ -84,7 +84,7 @@ Some improvements:
 </br>
 
 # Explore the notebook
-- [Normal Data Analysis](#GPU_analysis.ipynb)
+- [Normal Data Analysis](https://github.com/Imaan14/GPU-Analysis/blob/main/GPU_analysis.ipynb)
 - [Advanced Statistics]()
 
 </br>

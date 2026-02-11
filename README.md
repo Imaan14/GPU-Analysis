@@ -1,49 +1,94 @@
-<h1 align="centre">
-  My-Data-Analysis-Projects
-</h1>
+# Key Findings:
+- The best GPUs (looking at 3DMARK & VRAM) are expensive
+- 2022 had the highest average price (both retail and used) of GPUs
+- 2024 sold the most GPUs
+- The GPU specs are so similar to each other they're almost identical (Multicollinearity)
+- The dataset is not normally distributed
+</br>
 
-<p align="centre">
-A collection of data analysis projects that I've done using Kaggle datasets.
-  <br><br>
-  <!-- License -->
-  <a>
-    <img alt="license url" src="https://img.shields.io/badge/license%20-MIT-1C1E26?style=for-the-badge&labelColor=1C1E26&color=61ffca">
-  </a>
-</p>
-<br/>
+# Author/s: 
+Imaan Adams
+</br>
 
-## 🔍 Overview
+# Table of Contents
+- [Business Problem](#Business-Problem)
+- [Data Source](#Data-Source)
+- [Methods](#Methods)
+- [Tech Stack](#Tech-Stack)
+- [Quick glance at the results](#Quick-glance-at-the-results)
+- [Lessons learned and recommendation](#Lessons-learned-and-recommendation])
+- [Limitations and what can be improved](#Limitations-and-what-can-be-improved)
+- [Explore the notebook](#Explore-the-notebook)
+</br>
 
-<br><br/>
+# Business Problem
+During planning, I brainstormed a few questions that I wanted answers to based on the data. These questions guides the analysis methods and visualizations.</br>
 
-## 📖 About 
-These are mostly personal projects, using mainly pandas for data cleaning, exploration and inferences. Visualizations are mostly coded using seaborn instead of dashboard software.
-<br><br/>
+My Questions:
+- What is the prices of the best GPUs? (price vs performance)
+- What is the average cost of GPUs?
+- What period of time did most people buy a GPU?
+- Does retail price affect second hand price?
+- What would future prices of the best GPU look like?
+</br>
 
-## :bricks: This project was built with: 
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-<br><br/>
+# Data Source
+Free Dataset from Kaggle, published by Mann Acharya.
 
-## 🎫Links to datasets
-<table>
-  <tr>
-    <th>Project Name</th>
-    <th>Dataset Link</th>
-  </tr>
-  <tr>
-    <th>GPU_analysis</th>
-    <th>https://www.kaggle.com/datasets/mannacharya/historical-gpu-prices-nvidia-and-amd</th>
-  </tr>
-</table>
-<br><br/>
+https://www.kaggle.com/datasets/mannacharya/historical-gpu-prices-nvidia-and-amd/data
+</br>
 
-## :page_with_curl:	License
+# Methods
+## Data Cleaning Pipeline
+- Remove duplicates
+- Standardize the data
+- Deal with null or blank values
+- Change format of Date column
+</br>
+
+## Statistical Methods
+- Correlation
+- Descriptive Statistics (count, mean, median, mode, std, min, max & percentiles)
+- Testing Multicollinearity
+    - Variance Inflation Factor
+    - Tolerance, Eigenvalues
+    - Condition Index
+- Testing Normality
+    - Shapiro-Wilk Test
+    - Skewness and Kurtosis
+</br>
+
+# Tech Stack
+Pandas, Plotly, Scikit-learn, Numpy, Matplotlib
+</br>
+
+# Quick glance at the results
+
+</br>
+
+# Lessons learned and recommendation
+I learned which library is best for visualizations in jupyter notebook, how to pick different graphs to display certain results and how to execute more advanced statistic techniques using python.
+
+Recommendations: Use ridge regression to combat the multicollinearity problem 
+</br>
+
+# Limitations and what can be improved
+My lack of knowledge in data science topics limited me on how much of my statistical knowledge that could be used in this project.
+
+*Note: All data science techniques I've used in this project with python is self-taught
+
+Some improvements:
+- Using the gpu specifications (3DMARK, VRAM, Wattage) as categorical variables
+- Redo the advanced statistics so I can create a forecasting model of future GPUs or comparison model for  prices
+
+</br>
+
+# Explore the notebook
+- [Normal Data Analysis](#GPU_analysis.ipynb)
+- [Advanced Statistics]()
+
+</br>
+
+#	License
 This project is under the MIT license. Take a look at the [LICENSE](https://github.com/Imaan14/My-Data-Analysis-Projects/blob/main/LICENSE) file for more details.
 <br><br/>
-
-## 📚 Resources
-  * ReadMe Template: https://github.com/pferreirafabricio/readme-template/blob/main/README.md

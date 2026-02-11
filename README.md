@@ -63,7 +63,11 @@ Pandas, Plotly, Scikit-learn, Numpy, Matplotlib
 </br>
 
 # Quick glance at the results
-
+<img width="700" height="360" alt="Image" src="https://github.com/user-attachments/assets/b5096de1-ae10-4483-a1f7-8b5dce408af7" />
+<img width="700" height="360" alt="Image" src="https://github.com/user-attachments/assets/476e2661-7858-4ab4-81b1-9f7eeb490cfa" />
+<img width="700" height="360" alt="Image" src="https://github.com/user-attachments/assets/0a30b447-4dd6-4038-ae38-526a10cd7a84" />
+<img width="700" height="360" alt="Image" src="https://github.com/user-attachments/assets/5f0ad633-2c48-46bf-a11a-62e5c2370f71" />
+<img width="700" height="360" alt="Image" src="https://github.com/user-attachments/assets/e7c06ee2-c7ac-4d6c-bb2b-ba45e3af7522" />
 </br>
 
 # Lessons learned and recommendation
